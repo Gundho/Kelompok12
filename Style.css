@@ -249,7 +249,7 @@ label{
 	display: block;
 	background-color: rgba(135,206,250);
 	height: 30px;
-	width: 50px;
+	width: auto;
 	z-index: 2;
 	text-align: center;
 	padding: 5px;
