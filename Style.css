@@ -313,3 +313,11 @@ label{
 	padding-top: 25px;
 	font-size: 15px;
 }
+#kotakmapel{
+	height: 100px;
+	width: 200px;
+	background-color: rgba(65,105,225);
+	float: left;
+	margin: 10px;
+	padding: 100px;
+}
