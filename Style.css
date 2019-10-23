@@ -64,7 +64,8 @@ hr{
 	margin-top: 50px;
 }
 .kontenbox{
-	width: 370px;
+	display: grid;
+	width: 385px;
 	min-width: 200px;    
     margin: 10px;
     margin-top: 0px;
@@ -72,20 +73,9 @@ hr{
     min-height: 600px;
     float: left;
     padding: 10px;
-    display: inline;
+    display: inline-block;
     margin-left: 20px;
-}
-.kontenbox2{
-	width: 370px;
-	min-width: 200px;    
-    margin: 10px;
-    margin-top: 90px;
-    height: 80vh;
-    min-height: 600px;
-    float: left;
-    padding: 10px;
-    display: inline;
-    margin-left: 20px;
+    font-size: 24px;
 }
 #logo{
 	background-image: url(img/logo.png);
@@ -137,8 +127,10 @@ hr{
 	font-size: 35px;
 }
 #intro2{
+	position: absolute;
 	width: 100vw;
 	text-align: center;
+	bottom: 0;
 }
 #boximage{
 	width: 200px;
@@ -237,7 +229,7 @@ label{
 }
 #nav{
 	display: block;
-	background-color: rgba(135,206,250);
+	background-color: rgba(154,205,50);
 	height: 30px;
 	width: 50px;
 	z-index: 2;
@@ -249,7 +241,7 @@ label{
 }
 #nav2{
 	display: block;
-	background-color: rgba(135,206,250);
+	background-color: rgba(154,205,50);
 	height: 30px;
 	width: auto;
 	z-index: 2;
@@ -309,26 +301,84 @@ label{
 	width: 265px;
 	padding-top: 10px;
 	font-size: 20px;
+	color: white;
 	position: absolute;
 }
 #kontenisi{
 	display: block;
-	background-color: rgba(65,105,225);
-	height: 40px;
+	background-color: rgba(135,206,250);
+	height: 60px;
 	border-radius: 5px;
 	width: 240px;
 	display: inline-block;
-	padding-top: 25px;
+	padding: 5px;
 	font-size: 15px;
 	float: left;
 	margin-left: 18px;
-	margin-top: 0px;
+	margin-top: 5px;
 }
-#kotakmapel{
-	height: 80px;
-	width: 180px;
-	background-color: rgba(65,105,225);
+#kontenisi2{
+	display: block;
+	background-color: yellow;
+	height: 60px;
+	border-radius: 5px;
+	width: 53vw;
+	display: inline-block;
+	padding: 5px;
+	font-size: 15px;
+	float: left;
+	margin-left: 18px;
+	margin-top: 5px;
+	color: green;
+}
+.kotakmapel{
+	display: grid;
+	height: 300px;
+	width: 550px;
+	background-color: rgba(135,206,250);
 	float: left;
 	margin: 10px;
-	padding: 100px;
+	padding: 5px;
+	border-radius: 10px;
+}
+#kehadiran{
+	display: block;
+	background-color: green;
+	width: 100px;
+	height: 20px;
+	float: left;
+	text-align: center;
+	border-top-left-radius: 10px;
+	margin-top: 0px;
+}
+.table3{
+	background-color: rgba(135,206,250);
+	float: left;
+	display: grid;
+	border-radius: 5px;
+	min-height: 500px;
+	width: 80vw;
+	padding: 5px;
+}
+.isi3{
+	display: block;
+	float: left;
+	background-color: white;
+	height: auto;
+	border-radius: 5px;
+	width: auto;
+}
+#kontenisi3{
+	display: block;
+	background-color: yellow;
+	height: 60px;
+	border-radius: 5px;
+	width: 73vw;
+	display: inline-block;
+	padding: 5px;
+	font-size: 15px;
+	float: left;
+	margin-left: 18px;
+	margin-top: 5px;
+	color: green;
 }
