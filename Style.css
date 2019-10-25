@@ -382,3 +382,12 @@ label{
 	margin-top: 5px;
 	color: green;
 }
+h2{
+	font-size: 20px;
+	color: rgba(154,205,50);
+}
+h3{
+	font-size: 15px;
+	color: rgba(135,206,250);
+	margin-left: 30px;
+}
