@@ -3,6 +3,8 @@
 <head>
 	<title>Masuk</title>
 	<link rel="stylesheet" type="text/css" href="Style.css">
+	<script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+	<script type="text/javascript" src="js/JavaScript.js"></script>
 </head>
 <body background="img/bg.jpeg">
 	<div class="menu">
@@ -28,24 +30,24 @@
 				<tr>
 					<td><h1>Login</h1></td>
 				</tr>
+				<form id="form_id" method="post" name="myform">
 				<tr>
 					<td>
 						Username :
-						<input type="text" placeholder="Username">
+						<input type="text" placeholder="Username" id="user"/>
 					</td>
 				</tr>
 				<tr>
 					<td>
 						Password :
-						<input type="Password" placeholder="Password">
+						<input type="Password" placeholder="Password" id="pass"/>
 					</td>
 				<tr>
 					<td>
-						<a href="main.html">
-						<input class="button" type="button" name="submit" value="Login" id="value_login">
-						</a>
+						<input type="button" class="button" value="Login" id="value_login" onclick="validasi()"/>
 					</td>
 				</tr>
+				</form>
 			</table>
 		</center>
 	</div>
